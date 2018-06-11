@@ -10,8 +10,13 @@ function getIt() {
 function frameIt() {
   //bind the load event that adds the class tasty to the image
   $('img').on("load", function() {
-    $('img').classList.add
+    $('img').classList.add('tasty');
   })
+}
+
+function pressIt() {
+  //bind a keydown event to the input field of the form that alers a user when they have pressed the G key
+  $('')
 }
 
 $(document).ready(function(){
