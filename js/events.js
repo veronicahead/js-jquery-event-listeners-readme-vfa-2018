@@ -10,7 +10,7 @@ function getIt() {
 function frameIt() {
   //bind the load event that adds the class tasty to the image
   $('img').on("load", function() {
-    
+    $('img').classList.add
   })
 }
 
